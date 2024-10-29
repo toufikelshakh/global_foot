@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hauteur de la vue */
+    background-image: url('ldc.jpg'); /* Image de fond */
+    background-size: cover; /* Pour couvrir toute la page */
+    background-position: center; /* Centrer l'image */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(240, 240, 240, 0.8); /* Fond léger avec transparence pour la zone de formulaire */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Largeur de la zone de formulaire */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px; /* Un peu d'espace en bas du h1 */
+    color: #003366; /* Couleur bleu foncé */
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px; /* Un peu d'espace en bas du h2 */
+}
+
+.form-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #003366; /* Bordure bleu foncé */
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px; /* Espacement des étiquettes */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Largeur pleine */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Coins arrondis */
+}
+
+button {
+    background-color: #003366; /* Bleu foncé */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Largeur pleine */
+}
+
+button:hover {
+    background-color: #002244; /* Couleur plus foncée au survol */
+}
+
+.link {
+    color: #003366; /* Couleur bleu foncé */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+.link:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
+
+
